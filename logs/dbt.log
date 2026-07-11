@@ -1,0 +1,30 @@
+[0m00:36:25.277688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8AC672900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8AE8AE6C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8AC096CF0>]}
+
+
+============================== 00:36:25.284693 | 05776bcf-171b-4031-9b87-d103f62a7162 ==============================
+[0m00:36:25.284693 [info ] [MainThread]: Running with dbt=1.11.12
+[0m00:36:25.285699 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Sathwik\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init cricket_transform', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m00:36:25.315690 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\Sathwik\.dbt
+[0m00:36:25.318676 [debug] [MainThread]: Starter project path: C:\Users\Sathwik\Desktop\cricket-etl-pipeline\venv\Lib\site-packages\dbt\include\starter_project
+[0m00:36:25.349222 [info ] [MainThread]: 
+Your new dbt project "cricket_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m00:36:25.350217 [info ] [MainThread]: Setting up your profile.
+[0m00:40:09.731329 [info ] [MainThread]: Profile cricket_transform written to C:\Users\Sathwik\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m00:40:09.733334 [debug] [MainThread]: Command `dbt init` succeeded at 00:40:09.733334 after 224.63 seconds
+[0m00:40:09.733334 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8ADD6EDB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8D132E9C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B8D14D2E10>]}
+[0m00:40:09.734331 [debug] [MainThread]: Flushing usage events
+[0m00:40:10.487930 [debug] [MainThread]: An error was encountered while trying to flush usage events

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: cricket_raw
+    dataset: cricket_raw
+    tables:
+      - name: matches
+    
